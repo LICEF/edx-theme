@@ -154,8 +154,8 @@ box-shadow:none;border:none;
 .highlighted-courses .courses .course, .find-courses .courses .course{box-shadow:none;}
 /*.highlighted-courses .courses .course .meta-info, .find-courses .courses .course .meta-info{display:none;}*/
 
-.highlighted-courses .courses .course .inner-wrapper, .find-courses .courses .course .inner-wrapper{border:none;height:260px;}
-.highlighted-courses .courses .course .info .cover-image, .find-courses .courses .course .info .cover-image{height:260px; margin-top:40px;}
+.highlighted-courses .courses .course .inner-wrapper, .find-courses .courses .course .inner-wrapper{border:none;height:310px;}
+.highlighted-courses .courses .course .info .cover-image, .find-courses .courses .course .info .cover-image{height:310px;/*margin-top:40px;*/}
 .highlighted-courses .courses .course .info, .find-courses .courses .course .info {height: 420px;}
 
 nav.course-material{background:#3f3c30;}
