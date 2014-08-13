@@ -123,7 +123,7 @@ box-shadow:none;border:none;
 }
 .home,
 .find-courses{
-	background-image: url("../themes/teluq/images/teluq-pano-gris.jpg");
+	background: url("http://benhur.teluq.ca/ulibre/teluq-pano-gris.jpg") no-repeat center top #fff;
 }
 
 .home>header,
