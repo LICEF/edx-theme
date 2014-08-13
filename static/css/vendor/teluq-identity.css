@@ -4,6 +4,8 @@
  * Custom base styles
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
+ 
+ 
 .container,
 header.global nav,header.global.slim nav, .wrapper-footer,
 #su-header .su-container,
@@ -12,7 +14,9 @@ section.vision {margin: 0 auto;}
 
 .container.about>nav, section.about.outside-app>nav{margin-bottom:80px;}
 
-p a:active,p a:hover,p a:focus{color:#044ea5;}
+p a:active,p a:hover,p a:focus,
+p.instructions a:active,p.instructions a:hover,p.instructions a:focus,
+.register a:link, .register a:visited, .register a:hover, .register a:active, .register a:focus{color:#044ea5;}
 
 #su-header .span2 {
   display: block;
@@ -143,7 +147,6 @@ box-shadow:none;border:none;
 /*SECTION*/
 
 /*Les cours*/
-
 .courses-listing{width:825px;}
 .highlighted-courses .courses .courses-listing, .find-courses .courses .courses-listing{margin:0 auto;}
 .highlighted-courses .courses .courses-listing .courses-listing-item, .find-courses .courses .courses-listing .courses-listing-item{width:365px;margin:0 0 0 95px;}
