@@ -135,6 +135,7 @@ box-shadow:none;border:none;
   width: 100%;
   border-bottom:none;
   box-shadow:none;
+  background:none;
 }
 
 .login .form-actions button[type="submit"], .register .form-actions button[type="submit"], .passwordreset .form-actions button[type="submit"], #forgot-password-modal #password-reset .form-actions button[type="submit"], .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware{box-shadow:none;border-radius:0;}
