@@ -4,7 +4,7 @@
  * Custom base styles
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
- 
+body{max-width:1600px;margin:0 auto;}
  
 .container,
 header.global nav,header.global.slim nav, .wrapper-footer,
