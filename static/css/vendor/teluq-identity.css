@@ -128,6 +128,7 @@ section..home,
 section.find-courses,
 section.course-info{
 	background: url("http://benhur.teluq.ca/ulibre/teluq-pano-gris.jpg") no-repeat center top #fff;
+	padding-top:80px;
 }
 
 section.container.about,
