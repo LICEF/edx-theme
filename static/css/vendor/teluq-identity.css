@@ -226,7 +226,7 @@ Media queries
 	#su-header .su-container img {padding:0;}
 	
 	/* Bootstrap style */  
-	.view-register .container, .view-register section.outside-app, .view-register .introduction, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,
+	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,
 	header.global nav,header.global.slim nav, .wrapper-footer,
 	#su-header .su-container,
 	.course-info header.course-profile .intro-inner-wrapper,
@@ -241,7 +241,7 @@ Media queries
 
 @media screen and (min-width: 980px) {
 	/* Bootstrap style */
-	.view-register .container, .view-register section.outside-app, .view-register .introduction, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,
+	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,
 	header.global nav,header.global.slim nav, .wrapper-footer,
 	#su-header .su-container,
 	.course-info header.course-profile .intro-inner-wrapper,
@@ -252,7 +252,7 @@ Media queries
 
 @media screen and (min-width: 1024px) {
 	/* Bootstrap style */  
-	.view-register .container, .view-register section.outside-app, .view-register .introduction, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,
+	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,
 	header.global nav,header.global.slim nav, .wrapper-footer,
 	#su-header .su-container,
 	.course-info header.course-profile .intro-inner-wrapper,
