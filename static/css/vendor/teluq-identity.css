@@ -4,7 +4,8 @@
  * Custom base styles
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
-body{max-width:1600px;margin:0 auto;}
+body,.container{max-width:1600px;margin:0 auto;}
+
  
 header.global nav,header.global.slim nav, .wrapper-footer,
 #su-header .su-container,
@@ -124,7 +125,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb490f', end
 box-shadow:none;border:none;
 }
 section..home,
-section..find-courses,
+section.find-courses,
 section.course-info{
 	background: url("http://benhur.teluq.ca/ulibre/teluq-pano-gris.jpg") no-repeat center top #fff;
 }
