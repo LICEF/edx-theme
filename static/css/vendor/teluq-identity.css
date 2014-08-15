@@ -124,17 +124,17 @@ background: linear-gradient(to bottom,  #cb490f 0%,#AF360E 69%,#AF360E 100%); /*
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb490f', endColorstr='#AF360E',GradientType=0 ); /* IE6-9 */
 box-shadow:none;border:none;
 }
-section..home,
+section.home,
 section.find-courses,
 section.course-info{
 	background: url("http://benhur.teluq.ca/ulibre/teluq-pano-gris.jpg") no-repeat center top #fff;
-	padding-top:80px;
 }
 
 section.container.about,
 section.container.dashboard,
 section.introduction{
 	background: url("http://benhur.teluq.ca/ulibre/textureULIBRE_web_60px.jpg") no-repeat center top #fff;
+	padding-top:80px;
 }
 
 
