@@ -4,7 +4,7 @@
  * Custom base styles
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
-body,.container, section.introduction{max-width:1600px;margin:0 auto;}
+body,.container, section.introduction, .view-register .introduction{max-width:1600px;margin:0 auto;}
 
  
 header.global nav,header.global.slim nav, .wrapper-footer,
@@ -136,6 +136,7 @@ section.introduction,
 .view-register .introduction{
 	background: url("http://benhur.teluq.ca/ulibre/textureULIBRE_web_60px.jpg") no-repeat center top #fff;
 	padding-top:80px;
+	width:100%;
 }
 
 
