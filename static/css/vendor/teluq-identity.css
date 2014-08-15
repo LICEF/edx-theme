@@ -6,11 +6,9 @@
  */
 body{max-width:1600px;margin:0 auto;}
  
-.container,
 header.global nav,header.global.slim nav, .wrapper-footer,
 #su-header .su-container,
-.container.about>nav, section.about.outside-app>nav,
-section.vision {margin: 0 auto;}
+.container.about>nav, section.about.outside-app>nav{margin: 0 auto;}
 
 .container.about>nav, section.about.outside-app>nav{margin-bottom:80px;}
 
@@ -125,10 +123,18 @@ background: linear-gradient(to bottom,  #cb490f 0%,#AF360E 69%,#AF360E 100%); /*
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb490f', endColorstr='#AF360E',GradientType=0 ); /* IE6-9 */
 box-shadow:none;border:none;
 }
-.home,
-.find-courses{
+section..home,
+section..find-courses,
+section.course-info{
 	background: url("http://benhur.teluq.ca/ulibre/teluq-pano-gris.jpg") no-repeat center top #fff;
 }
+
+section.container.about,
+section.container.dashboard,
+section.introduction{
+	background: url("http://benhur.teluq.ca/ulibre/textureULIBRE_web_60px.jpg") no-repeat center top #fff;
+}
+
 
 .home>header,
 .find-courses header.search, .university-profile header.search{
@@ -218,55 +224,39 @@ Media queries
 	
 	/* Bootstrap style */  
 	.view-register .container, .view-register section.outside-app, .view-register .introduction, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,
-	.container,
 	header.global nav,header.global.slim nav, .wrapper-footer,
 	#su-header .su-container,
 	.course-info header.course-profile .intro-inner-wrapper,
 	.view-register header.global nav, .view-login header.global nav,
 	nav.course-material ol.course-tabs,
-	.container.about>nav, section.about.outside-app>nav,
-	section.vision{ width:760px; }
-  
-	/*header.global .nav-global.authenticated li{padding: 0 10px;}*/
-		
+	.container.about>nav, section.about.outside-app>nav{ width:760px; }
+  		
 	#bottom-text {margin-top:2px;}
   	#bottom-logo {  margin:-5px 0 10px; }
-
-	p.copyright {
-		text-align:left;
-		padding-left:17%;
-		padding-top:25px;
-	}
+	p.copyright {text-align:left;padding-left:17%;padding-top:25px;}
 }
 
 @media screen and (min-width: 980px) {
 	/* Bootstrap style */
 	.view-register .container, .view-register section.outside-app, .view-register .introduction, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,
-	.container,
 	header.global nav,header.global.slim nav, .wrapper-footer,
 	#su-header .su-container,
 	.course-info header.course-profile .intro-inner-wrapper,
 	.view-register header.global nav, .view-login header.global nav,
 	nav.course-material ol.course-tabs,
-	.container.about>nav, section.about.outside-app>nav,
-	section.vision {width:960px;}
-	
-	/*header.global .nav-global.authenticated{margin:0;}
-	header.global .nav-global.authenticated li{padding: 0 25px;}*/	  
+	.container.about>nav, section.about.outside-app>nav{width:960px;} 
 }
 
 @media screen and (min-width: 1024px) {
 	/* Bootstrap style */  
 	.view-register .container, .view-register section.outside-app, .view-register .introduction, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,
-	.container,
 	header.global nav,header.global.slim nav, .wrapper-footer,
 	#su-header .su-container,
 	.course-info header.course-profile .intro-inner-wrapper,
 	.view-register header.global nav, .view-login header.global nav,
 	.view-register .wrapper-footer footer, .view-login .wrapper-footer footer,
 	nav.course-material ol.course-tabs,
-	.container.about>nav, section.about.outside-app>nav,
-	section.vision {width:1024px;}
+	.container.about>nav, section.about.outside-app>nav{width:1024px;}
 	
 	p.copyright {padding-left:16%;}	
 }	
