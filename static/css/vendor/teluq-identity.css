@@ -9,7 +9,7 @@ body,.container, section.introduction, .view-register .introduction{max-width:16
  
 header.global nav,header.global.slim nav, .wrapper-footer,
 #su-header .su-container,
-.container.about>nav, section.about.outside-app>nav{margin: 0 auto;}
+.container.about>nav, section.about.outside-app>nav,.view-register .introduction header {margin: 0 auto;}
 
 .container.about>nav, section.about.outside-app>nav{margin-bottom:80px;}
 
