@@ -133,7 +133,7 @@ section.course-info{
 section.container.about,
 section.container.dashboard,
 section.introduction,
-.view-register .introduction{
+.view-register .introduction, .view-login .introduction {
 	background: url("http://benhur.teluq.ca/ulibre/textureULIBRE_web_60px.jpg") no-repeat center top #fff;
 	padding-top:80px;
 	width:100%;
