@@ -95,7 +95,7 @@ background:#747474;}
 .highlighted-courses .courses .course header.course-preview hgroup, .find-courses .courses .course header.course-preview hgroup{top: 7px;}
 
 
-.course-info header.course-profile{box-shadow:none;border-bottom:none;padding-top: 129px;height: 260px;background:none;}
+.course-info header.course-profile{box-shadow:none;border-bottom:none;padding-top: 70px;height: 260px;background:none;}
 .course-info header.course-profile .intro-inner-wrapper{box-shadow:none;}
 .course-info header.course-profile .intro-inner-wrapper .intro .main-cta span.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta span.add-to-cart{border:1px solid #999;color: #999;}
 
@@ -167,7 +167,7 @@ section.introduction,
 /*.highlighted-courses .courses .course .meta-info, .find-courses .courses .course .meta-info{display:none;}*/
 
 .highlighted-courses .courses .course .inner-wrapper, .find-courses .courses .course .inner-wrapper{border:none;height:260px;}
-.highlighted-courses .courses .course .info .cover-image, .find-courses .courses .course .info .cover-image{height:260px;/*margin-top:40px;*/}
+.highlighted-courses .courses .course .info .cover-image, .find-courses .courses .course .info .cover-image{height:220px;margin-top:40px;}
 .highlighted-courses .courses .course .info, .find-courses .courses .course .info {height: 420px;}
 
 nav.course-material{background:#3f3c30;}
