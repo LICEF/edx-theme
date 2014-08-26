@@ -5,6 +5,10 @@
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
 body,.container, section.introduction, .view-register .introduction{max-width:1600px;margin:0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+
+.view-register .login form .instructions, .login form .view-register .instructions, .view-register .register form .instructions, .register form .view-register .instructions, .view-register .passwordreset form .instructions, .passwordreset form .view-register .instructions, .view-register #forgot-password-modal #password-reset form .instructions, #forgot-password-modal #password-reset form .view-register .instructions, .view-login .login form .instructions, .login form .view-login .instructions, .view-login .register form .instructions, .register form .view-login .instructions, .view-login .passwordreset form .instructions, .passwordreset form .view-login .instructions, .view-login #forgot-password-modal #password-reset form .instructions, #forgot-password-modal #password-reset form .view-login .instructions, .view-passwordreset .login form .instructions, .login form .view-passwordreset .instructions, .view-passwordreset .register form .instructions, .register form .view-passwordreset .instructions, .view-passwordreset .passwordreset form .instructions, .passwordreset form .view-passwordreset .instructions, .view-passwordreset #forgot-password-modal #password-reset form .instructions, #forgot-password-modal #password-reset form .view-passwordreset .instructions{
+	font-family:Arial, Helvetica, sans-serif;
+}
  
 header.global nav,header.global.slim nav, 
 .wrapper-footer section,.wrapper-footer footer,
@@ -153,7 +157,7 @@ section.container article h3{
 	font-size: 1.3125em;
 }
 
-section.container article p{text-align:justify;}
+section.container article p{font-size:.875em;}
 
 
 .home>header,
