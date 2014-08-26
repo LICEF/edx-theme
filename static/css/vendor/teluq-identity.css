@@ -63,7 +63,7 @@ p.instructions a:active,p.instructions a:hover,p.instructions a:focus,
 
 
 header.global,header.global.slim{
-	height:45px;
+	height:30px;
 	border:none;
 	box-shadow:none;
 	background:#424244;
@@ -74,14 +74,16 @@ header.global nav h1.logo{display:none;}
 header.global.slim nav{padding:3px 0 0;}
 header.global.slim h2{width:auto;font-size: 1.5em;/*margin-top:83px;*/margin-left:50px;overflow:visible;}  /*monter les logos des cours sur le bandeau*/
 
-header.global .nav-global{display: block;margin-left:15px;margin-top:8px;}/*125px;*/
-header.global .nav-global li{border-left:2px solid #aeaeae;margin:0;padding:0 25px;font-size:1em;}
+header.global .nav-global{display: block;margin-left:15px;margin-top:0px;}/*125px;*/
+header.global .nav-global li{border-left:2px solid #aeaeae;margin:0;padding:0 25px;font-size:.875em;}
 header.global .nav-global li:first-child{border-left:none;padding-left:0;}
 header.global .nav-global li a{font-weight:500;color:#fff;}
 .view-howitworks .nav-global-01 a, .view-courses .nav-global-02 a, .view-schools .nav-global-03 a, .view-register .nav-global-04 a,
 header.global .nav-global li a:active,header.global .nav-global li a:hover,header.global .nav-global li a:focus{color:#aeaeae;}
 
-header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{text-transform:uppercase;padding:7px 10px;border-radius:0;}
+header.global .nav-courseware {margin-top:0;}
+header.global .nav-courseware li{font-size:.875em;}
+header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{text-transform:uppercase;padding:4px 10px;border-radius:0;}
 
 header.global .nav-courseware li .cta:hover, .view-partial-mktgregister .action.action-register:hover, .view-partial-mktgregister .action.access-courseware:hover, .view-partial-mktgregister .action.is-registered:hover, .view-partial-mktgregister .action.registration-closed:hover, .view-partial-mktgregister .action.coming-soon:hover,
 .login .form-actions button[type="submit"]:hover, .register .form-actions button[type="submit"]:hover, .passwordreset .form-actions button[type="submit"]:hover, #forgot-password-modal #password-reset .form-actions button[type="submit"]:hover, .view-partial-mktgregister .action.action-register:hover, .view-partial-mktgregister .action.access-courseware:hover{
@@ -89,9 +91,9 @@ background:#747474;}
 
 .view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub{margin-left:0;}
 
-.highlighted-courses .courses .course .status, .find-courses .courses .course .status{background:#148338;}
-.highlighted-courses .courses .course .status:after, .find-courses .courses .course .status:after{border-bottom: 6px solid #0d5424;}
-.highlighted-courses .courses .course .status{border-radius: 0;}
+.highlighted-courses .courses .course .status, .find-courses .courses .course .status{background:#148338;top:-16px;padding: 3px 10px 1px;}
+.highlighted-courses .courses .course .status:after, .find-courses .courses .course .status:after{display:none;}
+
 .highlighted-courses .courses .course header.course-preview hgroup, .find-courses .courses .course header.course-preview hgroup{top: 7px;}
 
 
