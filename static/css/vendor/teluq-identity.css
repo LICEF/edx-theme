@@ -222,6 +222,7 @@ header.global ol li.primary>a{border:none;}
 .wrapper-footer footer a:link, .wrapper-footer footer a:visited, 
 .wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{font-family:Arial, Helvetica, sans-serif;font-weight:300;}
 .wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{border-bottom:none;}
+.wrapper-footer footer .colophon{width: 77.10169%;}
 .wrapper-footer footer .colophon .nav-colophon li a:hover, .wrapper-footer footer .colophon .nav-colophon li a:focus, .wrapper-footer footer .colophon .nav-colophon li a:active{border-bottom:1px solid #044ea5; color:#044ea5;}
 
 .wrapper-footer footer ol{clear:both;display: table;margin-top:10px;}
