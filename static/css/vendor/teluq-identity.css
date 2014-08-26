@@ -7,7 +7,6 @@
 body,.container, section.introduction, .view-register .introduction{max-width:1600px;margin:0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
  
 header.global nav,header.global.slim nav, .wrapper-footer,
-#su-header .su-container,
 .container.about>nav, section.about.outside-app>nav,.view-register .introduction header {margin: 0 auto;}
 
 .container.about>nav, section.about.outside-app>nav{margin-bottom:80px;}
@@ -41,8 +40,9 @@ p.instructions a:active,p.instructions a:hover,p.instructions a:focus,
 #su-header {
   background: #ffffff;
   box-shadow: none;
-  min-height:167px;
+  min-height:167px;  
 }
+#su-header .su-container{min-width:1024px;margin: 0 auto;}
 
 /* Prevent flush left */
 #su-header .su-container img {padding:0;}
@@ -74,16 +74,16 @@ header.global nav h1.logo{display:none;}
 header.global.slim nav{padding:3px 0 0;}
 header.global.slim h2{width:auto;font-size: 1.5em;/*margin-top:83px;*/margin-left:50px;overflow:visible;}  /*monter les logos des cours sur le bandeau*/
 
-header.global .nav-global{display: block;margin-left:15px;margin-top:0px;}/*125px;*/
+header.global .nav-global{display: block;margin-left:15px;margin-top:2px;}/*125px;*/
 header.global .nav-global li{border-left:2px solid #aeaeae;margin:0;padding:0 25px;font-size:.875em;}
 header.global .nav-global li:first-child{border-left:none;padding-left:0;}
-header.global .nav-global li a{font-weight:500;color:#fff;}
+header.global .nav-global li a{font-weight:500;color:#fff;padding: 0 5px;}
 .view-howitworks .nav-global-01 a, .view-courses .nav-global-02 a, .view-schools .nav-global-03 a, .view-register .nav-global-04 a,
 header.global .nav-global li a:active,header.global .nav-global li a:hover,header.global .nav-global li a:focus{color:#aeaeae;}
 
-header.global .nav-courseware {margin-top:1px;}
+header.global .nav-courseware {margin-top:-3px;}
 header.global .nav-courseware li{font-size:.875em;}
-header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{text-transform:uppercase;padding:4px 10px;border-radius:0;}
+header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{text-transform:uppercase;padding:8px 10px;border-radius:0;}
 
 header.global .nav-courseware li .cta:hover, .view-partial-mktgregister .action.action-register:hover, .view-partial-mktgregister .action.access-courseware:hover, .view-partial-mktgregister .action.is-registered:hover, .view-partial-mktgregister .action.registration-closed:hover, .view-partial-mktgregister .action.coming-soon:hover,
 .login .form-actions button[type="submit"]:hover, .register .form-actions button[type="submit"]:hover, .passwordreset .form-actions button[type="submit"]:hover, #forgot-password-modal #password-reset .form-actions button[type="submit"]:hover, .view-partial-mktgregister .action.action-register:hover, .view-partial-mktgregister .action.access-courseware:hover{
@@ -138,6 +138,18 @@ section.introduction,
 	background: url("http://benhur.teluq.ca/ulibre/textureULIBRE_web_60px.jpg") no-repeat center top #fff;
 	padding-top:80px;
 	width:100%;
+}
+
+section.container article h2{
+	color: #2e928e;
+	font: normal 1.625em "Arial",Georgia,Cambria,"Times New Roman",Times,serif;
+	text-align: left!important;
+	margin: 25px 0 15px;
+}
+
+section.container article h3{
+	color: #666;
+	font-size: 1.3125em;
 }
 
 
@@ -232,7 +244,6 @@ Media queries
 	/* Bootstrap style */  
 	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,.view-register .introduction header, 
 	header.global nav,header.global.slim nav, .wrapper-footer,
-	#su-header .su-container,
 	.course-info header.course-profile .intro-inner-wrapper,
 	.view-register header.global nav, .view-login header.global nav,
 	nav.course-material ol.course-tabs,
@@ -247,7 +258,6 @@ Media queries
 	/* Bootstrap style */
 	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,.view-register .introduction header,
 	header.global nav,header.global.slim nav, .wrapper-footer,
-	#su-header .su-container,
 	.course-info header.course-profile .intro-inner-wrapper,
 	.view-register header.global nav, .view-login header.global nav,
 	nav.course-material ol.course-tabs,
@@ -258,7 +268,6 @@ Media queries
 	/* Bootstrap style */  
 	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,.view-register .introduction header,
 	header.global nav,header.global.slim nav, .wrapper-footer,
-	#su-header .su-container,
 	.course-info header.course-profile .intro-inner-wrapper,
 	.view-register header.global nav, .view-login header.global nav,
 	.view-register .wrapper-footer footer, .view-login .wrapper-footer footer,
