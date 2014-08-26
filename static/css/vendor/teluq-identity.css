@@ -6,7 +6,8 @@
  */
 body,.container, section.introduction, .view-register .introduction{max-width:1600px;margin:0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
  
-header.global nav,header.global.slim nav, .wrapper-footer,
+header.global nav,header.global.slim nav, 
+.wrapper-footer section,.wrapper-footer footer,
 .container.about>nav, section.about.outside-app>nav,.view-register .introduction header,.view-login .introduction header {margin: 0 auto;}
 
 .container.about>nav, section.about.outside-app>nav{margin-bottom:80px;}
@@ -209,7 +210,7 @@ header.global ol li.primary>a{border:none;}
 .social-sharing a{margin-left:20px;}
 .social-sharing a:first-child{margin-left:none;}
 
-.wrapper-footer{font-size:.75em;border-top:none;box-shadow:none;}
+.wrapper-footer{font-size:.75em;border-top:none;box-shadow:none;background-color: #ebebec;}
 .wrapper-footer .actions{margin-bottom:30px;}
 .wrapper-footer footer p, .wrapper-footer footer ol, .wrapper-footer footer ul,
 .wrapper-footer footer a:link, .wrapper-footer footer a:visited, 
@@ -243,7 +244,8 @@ Media queries
 	
 	/* Bootstrap style */  
 	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,.view-register .introduction header, 
-	header.global nav,header.global.slim nav, .wrapper-footer,
+	header.global nav,header.global.slim nav, 
+	.wrapper-footer section,.wrapper-footer footer,
 	.view-login .introduction header,
 	.course-info header.course-profile .intro-inner-wrapper,
 	.view-register header.global nav, .view-login header.global nav,
@@ -258,7 +260,8 @@ Media queries
 @media screen and (min-width: 980px) {
 	/* Bootstrap style */
 	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,.view-register .introduction header,
-	header.global nav,header.global.slim nav, .wrapper-footer,
+	header.global nav,header.global.slim nav,
+	.wrapper-footer section,.wrapper-footer footer,
 	.view-login .introduction header,
 	.course-info header.course-profile .intro-inner-wrapper,
 	.view-register header.global nav, .view-login header.global nav,
@@ -269,7 +272,8 @@ Media queries
 @media screen and (min-width: 1024px) {
 	/* Bootstrap style */  
 	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,.view-register .introduction header,
-	header.global nav,header.global.slim nav, .wrapper-footer,
+	header.global nav,header.global.slim nav,
+	.wrapper-footer section,.wrapper-footer footer,
 	.view-login .introduction header,
 	.course-info header.course-profile .intro-inner-wrapper,
 	.view-register header.global nav, .view-login header.global nav,
