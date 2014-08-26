@@ -42,7 +42,7 @@ p.instructions a:active,p.instructions a:hover,p.instructions a:focus,
   box-shadow: none;
   min-height:167px;  
 }
-#su-header .su-container{min-width:1024px;margin: 0 auto;}
+#su-header .su-container{width:1024px;margin: 0 auto;}
 
 /* Prevent flush left */
 #su-header .su-container img {padding:0;}
