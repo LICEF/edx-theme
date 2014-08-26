@@ -153,6 +153,8 @@ section.container article h3{
 	font-size: 1.3125em;
 }
 
+section.container article p{text-align:justify;}
+
 
 .home>header,
 .find-courses header.search, .university-profile header.search{
