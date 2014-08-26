@@ -188,9 +188,9 @@ section.container article p{font-size:.875em;}
 .highlighted-courses .courses .course .meta-info, .find-courses .courses .course .meta-info{display:none;}
 
 .highlighted-courses .courses .course .inner-wrapper, .find-courses .courses .course .inner-wrapper{border:none;height:260px;}
-.highlighted-courses .courses .course .info .cover-image, .find-courses .courses .course .info .cover-image{height:260px;}
+.highlighted-courses .courses .course .info .cover-image, .find-courses .courses .course .info .cover-image{height:220px;margin-top:40px;}
 .highlighted-courses .courses .course .info, .find-courses .courses .course .info {height: 420px;}
-.highlighted-courses .courses .course:hover .info, .find-courses .courses .course:hover .info{top:-209px;}
+.highlighted-courses .courses .course:hover .info, .find-courses .courses .course:hover .info{top:-220px;}
 
 nav.course-material{background:#3f3c30;}
 nav.course-material ol.course-tabs{border-radius:none;padding:0;margin:0 auto;}
