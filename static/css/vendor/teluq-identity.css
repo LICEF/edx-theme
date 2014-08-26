@@ -198,7 +198,7 @@ header.global ol li.primary>a{border:none;}
 .social-sharing a:first-child{margin-left:none;}
 
 .wrapper-footer{font-size:.75em;border-top:none;box-shadow:none;}
-wrapper-footer .actions{margin-bottom:30px;}
+.wrapper-footer .actions{margin-bottom:30px;}
 .wrapper-footer footer p, .wrapper-footer footer ol, .wrapper-footer footer ul,
 .wrapper-footer footer a:link, .wrapper-footer footer a:visited, 
 .wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{font-family: Verdana,Geneva,sans-serif,sans-serif;font-weight:700;}
