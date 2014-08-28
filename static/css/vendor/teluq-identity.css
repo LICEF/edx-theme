@@ -208,6 +208,10 @@ nav.course-material ol.course-tabs li a{color:#fff;}
 
 header.global ol li.primary>a{border:none;}
 
+header.global ol.user {margin-top: -2px;}
+header.global ol.user a.user-link {padding: 6px 12px 7px 35px;}
+header.global ol.user>li.primary:last-child>a {padding: 5px 8px 6px 8px;}
+
 /*Tableau de bord*/
 .dashboard .my-courses .course .cover{border-bottom:none;padding:0px;}
 
@@ -216,7 +220,7 @@ header.global ol li.primary>a{border:none;}
 .social-sharing a{margin-left:20px;}
 .social-sharing a:first-child{margin-left:none;}
 
-.wrapper-footer{font-size:.75em;border-top:none;box-shadow:none;background-color: #ebebec;}
+.wrapper-footer{font-size:.75em;border-top:none;box-shadow:none;}
 .wrapper-footer .actions{margin-bottom:30px;}
 .wrapper-footer footer p, .wrapper-footer footer ol, .wrapper-footer footer ul,
 .wrapper-footer footer a:link, .wrapper-footer footer a:visited, 
