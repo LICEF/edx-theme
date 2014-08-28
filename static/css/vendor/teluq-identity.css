@@ -9,6 +9,7 @@ body,.container, section.introduction, .view-register .introduction{max-width:16
 .view-register .login form .instructions, .login form .view-register .instructions, .view-register .register form .instructions, .register form .view-register .instructions, .view-register .passwordreset form .instructions, .passwordreset form .view-register .instructions, .view-register #forgot-password-modal #password-reset form .instructions, #forgot-password-modal #password-reset form .view-register .instructions, .view-login .login form .instructions, .login form .view-login .instructions, .view-login .register form .instructions, .register form .view-login .instructions, .view-login .passwordreset form .instructions, .passwordreset form .view-login .instructions, .view-login #forgot-password-modal #password-reset form .instructions, #forgot-password-modal #password-reset form .view-login .instructions, .view-passwordreset .login form .instructions, .login form .view-passwordreset .instructions, .view-passwordreset .register form .instructions, .register form .view-passwordreset .instructions, .view-passwordreset .passwordreset form .instructions, .passwordreset form .view-passwordreset .instructions, .view-passwordreset #forgot-password-modal #password-reset form .instructions, #forgot-password-modal #password-reset form .view-passwordreset .instructions{
 	font-family:Arial, Helvetica, sans-serif;
 }
+.view-register .register form .instructions{font-size: .875em;}
  
 header.global nav,header.global.slim nav, 
 .wrapper-footer section,.wrapper-footer footer,
@@ -19,6 +20,8 @@ header.global nav,header.global.slim nav,
 p a:active,p a:hover,p a:focus,
 p.instructions a:active,p.instructions a:hover,p.instructions a:focus,
 .register a:link, .register a:visited, .register a:hover, .register a:active, .register a:focus{color:#044ea5;}
+
+p a:link:hover, p a:link:focus, p a:visited:hover, p a:visited:focus{color:#044ea5;}
 
 #su-header .span2 {
   display: block;
@@ -159,6 +162,7 @@ section.container article h3{
 
 section.container article p{font-size:.875em;}
 
+.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-passwordreset .container, .view-passwordreset section.outside-app{padding: 20px 20px 40px 15px;}
 
 .home>header,
 .find-courses header.search, .university-profile header.search{
@@ -203,7 +207,7 @@ nav.course-material ol.course-tabs li a{color:#fff;}
 /*Formulaire d'inscription*/
 .view-login .introduction header{border:none;}
 .view-register .introduction header{height: 90px;border:none;}
-.view-register .introduction header .title, .view-login .introduction header .title, .view-passwordreset .introduction header .title{left:20px;border-bottom:1px solid #666;}
+.view-register .introduction header .title, .view-login .introduction header .title, .view-passwordreset .introduction header .title{left:15px;border-bottom:1px solid #666;}
 .view-register .introduction header h1, .view-login .introduction header h1, .view-passwordreset .introduction header h1{margin-bottom:0;padding-bottom:0;}
 
 header.global ol li.primary>a{border:none;}
