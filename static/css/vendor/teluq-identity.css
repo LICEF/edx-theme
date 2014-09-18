@@ -76,11 +76,13 @@ header.global,header.global.slim{
 	box-shadow:none;
 	background:#424244;
 }
+header.global.slim{padding:0;}
 
 header.global nav{height:auto;padding:3px 0 0;}
 header.global nav h1.logo{display:none;}
 header.global.slim nav{padding:3px 0 0;}
-header.global.slim h2{width:auto;font-size: 1.5em;/*margin-top:83px;*/margin-left:50px;overflow:visible;}  /*monter les logos des cours sur le bandeau*/
+header.global.slim h2{width:auto;font-size: 1em;margin-left:20px;overflow:visible;color:#fff;text-shadow:none;}  /*monter les logos des cours sur le bandeau*/
+header.global.slim h2 .provider{color:#fff;}
 
 header.global .nav-global{display: block;margin-left:15px;margin-top:2px;}/*125px;*/
 header.global .nav-global li{border-left:2px solid #aeaeae;margin:0;padding:0 25px;font-size:.875em;}
@@ -221,7 +223,7 @@ header.global ol.user>li.primary:last-child>a {padding: 5px 8px 6px 8px;}
 .dashboard .my-courses .course .info>hgroup h3 a, .dashboard .my-courses .course .info>hgroup h3 span{font-size: 1.25em;margin-bottom:0px;}
 .dashboard .my-courses .course .info>hgroup h3 a:link,.dashboard .my-courses .course .info>hgroup h3 a:visited{color:#000;}
 .dashboard .my-courses .course .info>hgroup h3 a:active,.dashboard .my-courses .course .info>hgroup h3 a:hover,.dashboard .my-courses .course .info>hgroup h3 a:focus{text-decoration:underline;}
-.dashboard .my-courses .course .info>hgroup .university{color:#999;font-size: .85em;}
+.dashboard .my-courses .course .info>hgroup .university{color:#444;font-size: .85em;}
 
 .social-sharing{text-align:center;}
 .social-sharing a{margin-left:20px;}
