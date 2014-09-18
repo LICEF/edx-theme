@@ -81,7 +81,7 @@ header.global.slim{padding:0;}
 header.global nav{height:auto;padding:3px 0 0;}
 header.global nav h1.logo{display:none;}
 header.global.slim nav{padding:3px 0 0;}
-header.global.slim h2{width:auto;font-size: 1em;margin-left:20px;overflow:visible;color:#fff;text-shadow:none;}  /*monter les logos des cours sur le bandeau*/
+header.global.slim h2{width:auto;font-size: 1em;margin-left:20px;margin-top: 4px;overflow:visible;color:#fff;text-shadow:none;}  /*monter les logos des cours sur le bandeau*/
 header.global.slim h2 .provider{color:#fff;}
 
 header.global .nav-global{display: block;margin-left:15px;margin-top:2px;}/*125px;*/
