@@ -217,8 +217,10 @@ header.global ol.user a.user-link {padding: 6px 12px 7px 35px;}
 header.global ol.user>li.primary:last-child>a {padding: 5px 8px 6px 8px;}
 
 /*Tableau de bord*/
-.dashboard .my-courses .course .cover{border-bottom:none;padding:0px;}
-
+.dashboard .my-courses .course .cover{padding:0px;border: 1px solid #000;}
+.dashboard .my-courses .course .info>hgroup h3 a, .dashboard .my-courses .course .info>hgroup h3 span{font-size: 1.75em;margin-bottom:0px;}
+.dashboard .my-courses .course .info>hgroup h3 a:link,.dashboard .my-courses .course .info>hgroup h3 a:visited{color:#000;}
+.dashboard .my-courses .course .info>hgroup .university{color:#999;font-size: .85em;}
 
 .social-sharing{text-align:center;}
 .social-sharing a{margin-left:20px;}
