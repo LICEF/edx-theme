@@ -218,8 +218,9 @@ header.global ol.user>li.primary:last-child>a {padding: 5px 8px 6px 8px;}
 
 /*Tableau de bord*/
 .dashboard .my-courses .course .cover{padding:0px;border: 1px solid #000;}
-.dashboard .my-courses .course .info>hgroup h3 a, .dashboard .my-courses .course .info>hgroup h3 span{font-size: 1.75em;margin-bottom:0px;}
+.dashboard .my-courses .course .info>hgroup h3 a, .dashboard .my-courses .course .info>hgroup h3 span{font-size: 1.25em;margin-bottom:0px;}
 .dashboard .my-courses .course .info>hgroup h3 a:link,.dashboard .my-courses .course .info>hgroup h3 a:visited{color:#000;}
+.dashboard .my-courses .course .info>hgroup h3 a:active,.dashboard .my-courses .course .info>hgroup h3 a:hover,.dashboard .my-courses .course .info>hgroup h3 a:focus{text-decoration:underline;}
 .dashboard .my-courses .course .info>hgroup .university{color:#999;font-size: .85em;}
 
 .social-sharing{text-align:center;}
