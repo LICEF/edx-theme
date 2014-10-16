@@ -194,7 +194,7 @@ section.container article p{font-size:.875em;}
 .highlighted-courses .courses .course .meta-info, .find-courses .courses .course .meta-info{display:none;}
 
 .highlighted-courses .courses .course .inner-wrapper, .find-courses .courses .course .inner-wrapper{border:none;height:260px;}
-.highlighted-courses .courses .course .info .cover-image, .find-courses .courses .course .info .cover-image{height:220px;margin-top:40px;}
+.highlighted-courses .courses .course .info .cover-image, .find-courses .courses .course .info .cover-image{height:220px;margin-top:40px;#margin-top:0px;}
 .highlighted-courses .courses .course .info, .find-courses .courses .course .info {height:auto!important;#height:220px!important;overflow:hidden!important;}
 .highlighted-courses .courses .course:hover .info, .find-courses .courses .course:hover .info{top:-220px!important;}
 
