@@ -74,7 +74,7 @@ header.global,header.global.slim{
 	height:30px;
 	border:none;
 	box-shadow:none;
-	background:#424244;
+	background:#424244!important;
 }
 header.global.slim{padding:0;}
 
