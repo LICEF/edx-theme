@@ -148,8 +148,12 @@ section.course-info{
 	box-sizing: border-box;
 	width: 100%;
 }
-.container>div{width:auto;}
-combined-notifications
+div.combined-notifications{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 2em 2.5em;
+}
 
 section.container.about,
 section.container.dashboard,
@@ -266,13 +270,6 @@ footer .references a:first-child{margin-left:0;}
 
 
 .instructions .register a:link{color:#148338;border-bottom:1px dotted #148338;}
-
-div.combined-notifications{
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 2em 2.5em;
-}
 
 /*
 ========================================================
