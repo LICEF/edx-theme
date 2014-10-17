@@ -175,7 +175,7 @@ section.container article h3{
 .course-index div#accordion h3.ui-accordion-header a:hover,
 .course-index div#accordion h3.ui-accordion-header a:focus{color: #aeaeae;}
 
-section.container article p{font-size:.875em;}
+section.container article p, ul, ol{font-size:.875em;}
 
 .view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-passwordreset .container, .view-passwordreset section.outside-app{padding: 20px 20px 40px 15px;}
 
