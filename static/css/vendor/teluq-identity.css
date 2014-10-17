@@ -142,6 +142,13 @@ section.course-info{
 	background: url("http://benhur.teluq.ca/ulibre/teluq-pano-gris.jpg") no-repeat center top #fff;
 }
 
+section.container{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+
 section.container.about,
 section.container.dashboard,
 section.introduction,
