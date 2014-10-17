@@ -148,6 +148,7 @@ section.course-info{
 	box-sizing: border-box;
 	width: 100%;
 }
+.container>div{width:auto;}
 
 section.container.about,
 section.container.dashboard,
@@ -170,6 +171,9 @@ section.container article h3{
 	font-size: 1.3125em;
 }
 .course-index div#accordion h3.ui-accordion-header a{color: #044ea5;}
+.course-index div#accordion h3.ui-accordion-header a:active,
+.course-index div#accordion h3.ui-accordion-header a:hover,
+.course-index div#accordion h3.ui-accordion-header a:focus{color: #aeaeae;}
 
 section.container article p{font-size:.875em;}
 
