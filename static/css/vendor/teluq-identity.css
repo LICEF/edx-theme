@@ -162,6 +162,7 @@ section.container article h3{
 	color: #666;
 	font-size: 1.3125em;
 }
+.course-index div#accordion h3.ui-accordion-header a{color: #044ea5;}
 
 section.container article p{font-size:.875em;}
 
@@ -266,7 +267,7 @@ Media queries
 	/* Bootstrap style */  
 	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,.view-register .introduction header, 
 	/*header.global nav,*/header.global.slim nav, 
-	.wrapper-footer section,.wrapper-footer footer,
+	/*.wrapper-footer section,*/.wrapper-footer footer,
 	.view-login .introduction header,
 	.course-info header.course-profile .intro-inner-wrapper,
 	/*.view-register header.global nav,*/ .view-login header.global nav,
@@ -282,7 +283,7 @@ Media queries
 	/* Bootstrap style */
 	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,.view-register .introduction header,
 	/*header.global nav,*/header.global.slim nav,
-	.wrapper-footer section,.wrapper-footer footer,
+	/*.wrapper-footer section,*/.wrapper-footer footer,
 	.view-login .introduction header,
 	.course-info header.course-profile .intro-inner-wrapper,
 	/*.view-register header.global nav,*/ .view-login header.global nav,
@@ -294,7 +295,7 @@ Media queries
 	/* Bootstrap style */  
 	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,.view-register .introduction header,
 	/*header.global nav,*/header.global.slim nav,
-	.wrapper-footer section,.wrapper-footer footer,
+	/*.wrapper-footer section,*/.wrapper-footer footer,
 	.view-login .introduction header,
 	.course-info header.course-profile .intro-inner-wrapper,
 	/*.view-register header.global nav,*/ .view-login header.global nav,
