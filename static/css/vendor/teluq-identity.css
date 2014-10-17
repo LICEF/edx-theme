@@ -286,6 +286,7 @@ Media queries
 	/* Bootstrap style */  
 	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,.view-register .introduction header, 
 	header.global nav,header.global.slim nav, 
+	.view-register header.global nav, .view-login header.global nav,
 	/*.wrapper-footer section,*/.wrapper-footer footer,
 	.view-login .introduction header,
 	.course-info header.course-profile .intro-inner-wrapper,
@@ -302,6 +303,7 @@ Media queries
 	/* Bootstrap style */
 	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,.view-register .introduction header,
 	header.global nav,header.global.slim nav,
+	.view-register header.global nav, .view-login header.global nav,
 	/*.wrapper-footer section,*/.wrapper-footer footer,
 	.view-login .introduction header,
 	.course-info header.course-profile .intro-inner-wrapper,
@@ -314,6 +316,7 @@ Media queries
 	/* Bootstrap style */  
 	.view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,.view-register .introduction header,
 	header.global nav,header.global.slim nav,
+	.view-register header.global nav, .view-login header.global nav,
 	/*.wrapper-footer section,*/.wrapper-footer footer,
 	.view-login .introduction header,
 	.course-info header.course-profile .intro-inner-wrapper,
