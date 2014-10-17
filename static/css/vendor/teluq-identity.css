@@ -175,7 +175,7 @@ section.container article h3{
 .course-index div#accordion h3.ui-accordion-header a:hover,
 .course-index div#accordion h3.ui-accordion-header a:focus{color: #aeaeae;}
 
-section.container article p, ul, ol{font-size:.875em;}
+/*section.container article p, section.container article ul, section.container article ol{font-size:.875em;}*/
 
 .view-register .container, .view-register section.outside-app, .view-login .container, .view-login section.outside-app, .view-passwordreset .container, .view-passwordreset section.outside-app{padding: 20px 20px 40px 15px;}
 
@@ -201,7 +201,7 @@ section.container article p, ul, ol{font-size:.875em;}
 .highlighted-courses .courses .courses-listing .courses-listing-item, .find-courses .courses .courses-listing .courses-listing-item{width:365px;margin:0 0 0 95px;}
 .highlighted-courses .courses .courses-listing .courses-listing-item:first-child, .find-courses .courses .courses-listing .courses-listing-item:first-child{margin-left:0;}
 
-.highlighted-courses .courses .course header.course-preview hgroup h2, .find-courses .courses .course header.course-preview hgroup h2{font-family:Arial, Helvetica, sans-serif;font-size:.875em;}
+.highlighted-courses .courses .course header.course-preview hgroup h2, .find-courses .courses .course header.course-preview hgroup h2{font-family:Arial, Helvetica, sans-serif;font-size:.925em;}
 .highlighted-courses .courses .course header.course-preview .info-link, .find-courses .courses .course header.course-preview .info-link{font-size:1em;padding-top:15px;}
 .highlighted-courses .courses .course, .find-courses .courses .course{box-shadow:none;}
 .highlighted-courses .courses .course .meta-info, .find-courses .courses .course .meta-info{display:none;}
@@ -229,7 +229,7 @@ header.global ol li.primary>a{border:none;}
 
 header.global ol.user {margin-top: -2px;}
 header.global ol.user a.user-link {padding: 6px 12px 7px 35px;}
-header.global ol.user>li.primary:last-child>a {padding: 5px 8px 6px 8px;}
+header.global ol.user>li.primary:last-child>a {padding: 5px 8px 8px;}
 
 /*Tableau de bord*/
 .dashboard .my-courses .course .cover{padding:0px;border: 1px solid #000;}
