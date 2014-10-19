@@ -139,7 +139,7 @@ box-shadow:none;border:none;
 section.home,
 section.find-courses,
 section.course-info{
-	background: url("../themes/teluq/images/teluq-pano-gris.jpg") no-repeat center top #fff;
+	background: url('../themes/teluq/images/teluq-pano-gris.jpg') no-repeat center top #fff;
 }
 
 .container{
@@ -159,7 +159,7 @@ section.container.about,
 section.container.dashboard,
 section.introduction,
 .view-register .introduction, .view-login .introduction {
-	background: url("../themes/teluq/images/textureULIBRE_web_60px.jpg") no-repeat center top #fff;
+	background: url('../themes/teluq/images/textureULIBRE_web_60px.jpg') no-repeat center top #fff;
 	padding-top:80px;
 	width:100%;
 }
