@@ -245,6 +245,16 @@ header.global ol.user>li.primary:last-child>a {padding: 5px 8px 6px;}
 .dashboard .my-courses .course .info>hgroup h3 a:active,.dashboard .my-courses .course .info>hgroup h3 a:hover,.dashboard .my-courses .course .info>hgroup h3 a:focus{text-decoration:underline;}
 .dashboard .my-courses .course .info>hgroup .university{color:#444;font-size: .85em;}
 
+.demande-renseignement .annonce{text-transform:uppercase;}
+.demande-renseignement a:link,.demande-renseignement a:visited{background: #cb490f;color: #fff;text-transform: uppercase;padding: 8px 10px;}
+.demande-renseignement a:active,.demande-renseignement a:hover,.demande-renseignement a:focus{
+	background: #747474;
+	-webkit-transition: color 0.25s ease-in-out,background 0.25s ease-in-out,box-shadow 0.25s ease-in-out;
+	-moz-transition: color 0.25s ease-in-out,background 0.25s ease-in-out,box-shadow 0.25s ease-in-out;
+	transition: color 0.25s ease-in-out,background 0.25s ease-in-out,box-shadow 0.25s ease-in-out;
+}
+.demande-renseignement hr{border:1px dotted #878586;}
+
 .social-sharing{text-align:center;}
 .social-sharing a{margin-left:20px;}
 .social-sharing a:first-child{margin-left:none;}
