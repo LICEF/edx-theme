@@ -142,6 +142,7 @@ section.find-courses,
 section.course-info{
 	background: url('https://sites.google.com/site/bondak/Home/teluq-pano-gris.jpg') no-repeat center top #fff;
 }
+section.find-courses{padding-bottom:0;}
 
 .container{
 	-webkit-box-sizing: border-box;
@@ -257,7 +258,7 @@ header.global ol.user>li.primary:last-child>a {padding: 5px 8px 6px;}
 	transition: color 0.25s ease-in-out,background 0.25s ease-in-out,box-shadow 0.25s ease-in-out;
 	text-decoration:none!important;
 }
-.demande-renseignement hr{border-top:3px dotted #999;}
+.demande-renseignement hr{border-top:3px dotted #999;margin: 1.5em 0;}
 .demande-renseignement a img{float:right;width:185px;height:118px;padding-left: 75px;}
 
 .social-sharing{text-align:center;}
@@ -265,12 +266,12 @@ header.global ol.user>li.primary:last-child>a {padding: 5px 8px 6px;}
 .social-sharing a:first-child{margin-left:none;}
 
 .wrapper-footer{font-size:.75em;border-top:none;box-shadow:none;}
-.wrapper-footer .actions{margin-bottom:30px;}
+.wrapper-footer .actions{margin: 4em auto 1em;}
 .wrapper-footer footer p, .wrapper-footer footer ol, .wrapper-footer footer ul,
 .wrapper-footer footer a:link, .wrapper-footer footer a:visited, 
 .wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{font-family:Arial, Helvetica, sans-serif;font-weight:300;}
 .wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{border-bottom:none;}
-.wrapper-footer footer .colophon{width: 77.10169%;}
+.wrapper-footer footer .colophon{width: 77.10169%;display: inline-block;float:none!important;vertical-align: bottom;}
 .wrapper-footer footer .colophon .nav-colophon li a:hover, .wrapper-footer footer .colophon .nav-colophon li a:focus, .wrapper-footer footer .colophon .nav-colophon li a:active{border-bottom:1px solid #044ea5; color:#044ea5;}
 
 .wrapper-footer footer ol{clear:both;display: table;margin-top:10px;}
@@ -279,7 +280,7 @@ header.global ol.user>li.primary:last-child>a {padding: 5px 8px 6px;}
 .wrapper-footer footer .colophon .nav-colophon li{border-left:1px solid #000;margin-right:0;padding:0 10px;}
 .wrapper-footer footer .colophon .nav-colophon li:first-child{border-left:none;}
 
-.wrapper-footer footer .references{width:auto;display:block;float:right;}
+.wrapper-footer footer .references{width:auto;display:inline-block;margin-top:0;}
 footer .references a{margin-left:10px;}
 footer .references a:first-child{margin-left:0;}
 
