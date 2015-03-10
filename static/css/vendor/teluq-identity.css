@@ -248,17 +248,17 @@ header.global ol.user>li.primary:last-child>a {padding: 5px 8px 6px;}
 
 .demande-renseignement {width: 825px; margin:0 auto;}
 .demande-renseignement .annonce{text-transform:uppercase;}
-.demande-renseignement a.button{display:inline-block;}
-.demande-renseignement a.button:link,.demande-renseignement a.button:visited{background: #cb490f;color: #fff;text-transform: uppercase;padding: 8px 10px;font-size:.8125em;}
-.demande-renseignement a.button:active,.demande-renseignement a.button:hover,.demande-renseignement a.button:focus{
+.demande-renseignement a.bouton{display:inline-block;margin:1em 0;}
+.demande-renseignement a.bouton:link,.demande-renseignement a.bouton:visited{background: #cb490f;color: #fff;text-transform: uppercase;padding: 8px 10px;font-size:.8125em;}
+.demande-renseignement a.bouton:active,.demande-renseignement a.bouton:hover,.demande-renseignement a.bouton:focus{
 	background: #747474;
 	-webkit-transition: color 0.25s ease-in-out,background 0.25s ease-in-out,box-shadow 0.25s ease-in-out;
 	-moz-transition: color 0.25s ease-in-out,background 0.25s ease-in-out,box-shadow 0.25s ease-in-out;
 	transition: color 0.25s ease-in-out,background 0.25s ease-in-out,box-shadow 0.25s ease-in-out;
 	text-decoration:none!important;
 }
-.demande-renseignement hr{border-top:1px dotted #999;}
-.demande-renseignement a img{float:right;width:185px;height:118px;}
+.demande-renseignement hr{border-top:3px dotted #999;}
+.demande-renseignement a img{float:right;width:185px;height:118px;padding-left: 75px;}
 
 .social-sharing{text-align:center;}
 .social-sharing a{margin-left:20px;}
