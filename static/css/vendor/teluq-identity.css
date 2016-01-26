@@ -206,7 +206,9 @@ section.container article h3{
 .courses-listing{width:825px;}
 .highlighted-courses .courses .courses-listing, .find-courses .courses .courses-listing{margin:0 auto;}
 .highlighted-courses .courses .courses-listing .courses-listing-item, .find-courses .courses .courses-listing .courses-listing-item{width:365px;margin:0 0 0 95px;}
-.highlighted-courses .courses .courses-listing .courses-listing-item:first-child, .find-courses .courses .courses-listing .courses-listing-item:first-child{margin-left:0;}
+.highlighted-courses .courses .courses-listing .courses-listing-item:first-child, .find-courses .courses .courses-listing .courses-listing-item:first-child,
+.highlighted-courses .courses .courses-listing .courses-listing-item:nth-child(3n+3), .find-courses .courses .courses-listing .courses-listing-item:nth-child(3n+3){margin-left:0;}
+.find-courses .courses .courses-listing .courses-listing-item:nth-child(3){display:none}
 
 .highlighted-courses .courses .course header.course-preview hgroup h2, .find-courses .courses .course header.course-preview hgroup h2{font-family:Arial, Helvetica, sans-serif;font-size:.875em;}
 .highlighted-courses .courses .course header.course-preview .info-link, .find-courses .courses .course header.course-preview .info-link{font-size:1em;padding-top:15px;}
